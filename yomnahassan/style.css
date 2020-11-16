@@ -1,0 +1,14 @@
+h1{
+    text-align: center; color: blue; text-transform: uppercase;
+    background-color: beige;
+}
+h3{ 
+text-align: right;
+font-size: 50px;
+font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.pngio.com%2Ffileuppercase-letter-ypng-y-png-590_600.png&imgrefurl=https%3A%2F%2Fpngio.com%2FPNG%2Fa1876-y-png.html&tbnid=vaGVZG9ChTfDsM&vet=12ahUKEwjf__bI74btAhU8gM4BHTJbAp0QMygIegUIARDCAQ..i&docid=uqhQCLl9q535QM&w=590&h=600&q=y%20images&ved=2ahUKEwjf__bI74btAhU8gM4BHTJbAp0QMygIegUIARDCAQ);
+    background-repeat: repeat-y;
+    background-position: center;
+}
