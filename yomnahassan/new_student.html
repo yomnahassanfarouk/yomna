@@ -3,14 +3,20 @@
         <title>
             new student
         </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <!--nav-->
-        <a href="index.html" target="_blank">home</a>
-        <a href="studentlist.html" target="_blank">home</a>
-        <a href="new_student.html" target="_blank">home</a>
+        <nav>
+            <div>
+        <ul>
+            <li> <a href="index.html" target="_blank">Home</a></li>
+            <li><a href="Studentlist.html" target="_blank">Student List</a></li>
+            <li><a href="new_student.html" target="_blank"class="active">New Student</a></li>
+            <li class="nav-right"> <a href="_blank">logout</a></li>
+         </ul>
 
-        <!--#nav-->
+        </div>
+    </nav>
         <hr>
         <!--sec-->
         <from action="#" method="get">
@@ -21,8 +27,26 @@
             </label>
             </p>
             <p>
+             <label> 
+                Birthday date:
+                <input type="date" name="txtBD">
 
+             </label>
             </p>
+            <p>
+                <label>
+                    gender;
+                    <input type="radio"name="gender" value="male">male
+                    <input type="radio"name="gender" value="female">female
+                </label>
+            </p>
+            <p>
+                <label>
+                    adress:
+                    <textarea rows="10" cols="30" name="textarea"></textarea>
+                </label>
+            </p>
+            
         </from>
     </body>
 </html>

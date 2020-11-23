@@ -1,14 +1,38 @@
-h1{
-    text-align: center; color: blue; text-transform: uppercase;
+ul{
+    list-style-type: none;
+    border:5px solid #e7e7e7;
     background-color: beige;
+    overflow: hidden;
+    padding:1px;
+    margin:1px;
+
 }
-h3{ 
-text-align: right;
-font-size: 50px;
-font-family: Arial, Helvetica, sans-serif;
+li{
+    float: left;
 }
-body{
-    background-image: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.pngio.com%2Ffileuppercase-letter-ypng-y-png-590_600.png&imgrefurl=https%3A%2F%2Fpngio.com%2FPNG%2Fa1876-y-png.html&tbnid=vaGVZG9ChTfDsM&vet=12ahUKEwjf__bI74btAhU8gM4BHTJbAp0QMygIegUIARDCAQ..i&docid=uqhQCLl9q535QM&w=590&h=600&q=y%20images&ved=2ahUKEwjf__bI74btAhU8gM4BHTJbAp0QMygIegUIARDCAQ);
-    background-repeat: repeat-y;
-    background-position: center;
+.nav-right{
+    float: right;
+}
+a{
+    text-decoration:none;
+    color:#008CBA;
+}
+li a{
+    display:block;
+    color:#666;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+li a:hover{
+    background-color: lightgray;
+}
+li a.active
+{
+    background-color: green;
+    color:white;
+}
+div{
+    border:2px solid black
 }
